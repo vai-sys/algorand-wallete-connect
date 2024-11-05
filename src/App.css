@@ -1,0 +1,78 @@
+/* Space-themed background */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #0b0c10; /* Dark background for space */
+  background-image: url('https://www.transparenttextures.com/patterns/stardust.png'); /* Star-like texture */
+  color: white;
+}
+
+/* Button styling */
+.centered-button {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #1f2833; /* Different button color */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+/* Space-themed background */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #0b0c10; /* Dark background for space */
+  background-image: url('https://www.transparenttextures.com/patterns/stardust.png'); /* Star-like texture */
+  color: white;
+}
+
+/* Button styling */
+.centered-button {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #1f2833; /* Different button color */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.centered-button:hover {
+  background-color: #66fcf1; 
+}
+
+/* Astronaut Animation */
+.astronaut-container {
+  position: relative;
+  margin-top: 50px;
+}
+
+.astronaut {
+  width: 150px;
+  height: auto;
+  animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-20px);
+  }
+  100% {
+      transform: translateY(0);
+  }
+}
+
+.centered-button:hover {
+  background-color: #66fcf1; 
+}
